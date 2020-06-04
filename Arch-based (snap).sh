@@ -1,9 +1,9 @@
 # There is no real reason to use this. Probably just use the pacman version of this script instead.
 
-pacman -Syu                                             # Update repos and software
+sudo pacman -Syu                                        # Update repos and software
 
 # Install snap
-sudo pacman -S snapd --noconfirm
+sudo --noconfirm snapd
 sudo systemctl enable --now snapd.socket
 
 sudo snap install kdenlive                              # kdenlive
@@ -18,9 +18,9 @@ sudo snap install audacity                              # Audacity
 sudo snap install chromium                              # Chromium (eww)
 sudo snap install gimp                                  # GIMP
 sudo snap install vlc                                   # VLC
-sudo pacman -S qbittorrent --noconfirm                  # qBittorrent using pacman (qBittorrent snap may have issues)
-sudo pacman -S install git --noconfirm                  # git
-sudo pacman -S Minecraft --noconfirm                    # Minecraft
-sudo pamac build github-desktop --noconfirm             # GitHub Desktop, this uses Manjaro's package manager. Since this is all for personal use, it is fine.
+sudo --noconfirm qbittorrent                            # qBittorrent using pacman (qBittorrent snap may have issues)
+sudo --noconfirm install git                            # git
+sudo --noconfirm Minecraft                              # Minecraft
+sudo pamac build github-desktop                         # GitHub Desktop, this uses Manjaro's package manager. Since this is all for personal use, it is fine.
 
 echo Done!
