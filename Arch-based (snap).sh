@@ -18,9 +18,11 @@ sudo snap install audacity                              # Audacity
 sudo snap install chromium                              # Chromium (eww)
 sudo snap install gimp                                  # GIMP
 sudo snap install vlc                                   # VLC
-sudo --noconfirm qbittorrent                            # qBittorrent using pacman (qBittorrent snap may have issues)
-sudo --noconfirm install git                            # git
-sudo --noconfirm Minecraft                              # Minecraft
-sudo pamac build github-desktop                         # GitHub Desktop, this uses Manjaro's package manager. Since this is all for personal use, it is fine.
+sudo pacman --noconfirm qbittorrent                     # qBittorrent using pacman (qBittorrent snap may have issues)
+sudo pacman --noconfirm install git                     # git
+
+# Need user authentication
+pamac build --no-confirm minecraft-launcher             # Minecraft
+pamac build github-desktop                              # GitHub Desktop, this uses Manjaro's package manager. Since this is all for personal use, it is fine.
 
 echo Done!

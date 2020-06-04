@@ -3,11 +3,11 @@
 sudo apt update                                         # Update repositories
 sudo apt full-upgrade                                   # Upgrade any non-upgraded software
 
-sudo apt install -y snapd                                  # Install snap if it isn't already
-sudo apt install -y kdenlive                               # kdenlive
-sudo apt install -y skanlite                               # Skanlite
+sudo apt install -y snapd                               # Install snap if it isn't already
+sudo apt install -y kdenlive                            # kdenlive
+sudo apt install -y skanlite                            # Skanlite
 sudo snap install onlyoffice-desktopeditors             # OnlyOffice
-sudo apt install -y steam                                  # Steam
+sudo apt install -y steam                               # Steam
 sudo snap install termius-app                           # Termius SSH
 sudo snap install code                                  # Visual Studio Code
 sudo snap install atom                                  # Atom
@@ -16,7 +16,7 @@ sudo snap install audacity                              # Audacity
 sudo snap install chromium                              # Chromium (eww)
 sudo snap install gimp                                  # GIMP
 sudo snap install vlc                                   # VLC
-sudo apt install -y qbittorrent                            # qBittorrent
+sudo apt install -y qbittorrent                         # qBittorrent
 sudo snap install discord                               # Discord
 
 # GitHub Desktop

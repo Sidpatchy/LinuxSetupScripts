@@ -18,7 +18,9 @@ sudo pacman -S --noconfirm gimp                         # GIMP
 sudo pacman -S --noconfirm vlc                          # VLC
 sudo pacman -S --noconfirm qbittorrent                  # qBittorrent
 sudo pacman -S --noconfirm install git                  # git
-sudo pacman -S --noconfirm Minecraft                    # Minecraft
-sudo pamac build github-desktop                         # GitHub Desktop, this uses Manjaro's package manager. Since this is all for personal use, it is fine.
+
+# Need user authentication
+pamac build --no-confirm minecraft-launcher             # Minecraft
+pamac build github-desktop                              # GitHub Desktop, this uses Manjaro's package manager. Since this is all for personal use, it is fine.
 
 echo Done!
