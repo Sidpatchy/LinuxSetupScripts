@@ -3,7 +3,7 @@
 pacman -Syu                                             # Update repos and software
 
 # Install snap
-sudo pacman -S snapd
+sudo pacman -S snapd --noconfirm
 sudo systemctl enable --now snapd.socket
 
 sudo snap install kdenlive                              # kdenlive
@@ -18,9 +18,9 @@ sudo snap install audacity                              # Audacity
 sudo snap install chromium                              # Chromium (eww)
 sudo snap install gimp                                  # GIMP
 sudo snap install vlc                                   # VLC
-sudo pacman -S qbittorrent                              # qBittorrent using pacman (qBittorrent snap may have issues)
-sudo pacman -S install git                              # git
-sudo pacman -S Minecraft                                # Minecraft
-sudo pamac build github-desktop                         # GitHub Desktop, this uses Manjaro's package manager. Since this is all for personal use, it is fine.
+sudo pacman -S qbittorrent --noconfirm                  # qBittorrent using pacman (qBittorrent snap may have issues)
+sudo pacman -S install git --noconfirm                  # git
+sudo pacman -S Minecraft --noconfirm                    # Minecraft
+sudo pamac build github-desktop --noconfirm             # GitHub Desktop, this uses Manjaro's package manager. Since this is all for personal use, it is fine.
 
 echo Done!
