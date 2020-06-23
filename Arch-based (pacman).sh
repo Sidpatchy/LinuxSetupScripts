@@ -1,9 +1,13 @@
-sudo pacman -Syu                                             # Update repos and software
+sudo pacman -Syu                                        # Update repos and software
 
 # Install snap
 sudo pacman -S --noconfirm snapd
 sudo systemctl enable --now snapd.socket
 
+# Install yay
+sudo pacman -S --noconfirm yay
+
+sudo yay -S --noconfirm discord-canary                              # Discord
 sudo pacman -S --noconfirm kdenlive                     # kdenlive
 sudo pacman -S --noconfirm skanlite                     # Skanlite
 sudo pacman -S --noconfirm onlyoffice-desktopeditors    # OnlyOffice
@@ -20,7 +24,7 @@ sudo pacman -S --noconfirm qbittorrent                  # qBittorrent
 sudo pacman -S --noconfirm install git                  # git
 
 # Need user authentication
-pamac build --no-confirm minecraft-launcher             # Minecraft
-pamac build github-desktop                              # GitHub Desktop, this uses Manjaro's package manager. Since this is all for personal use, it is fine.
+sudo yay -S --no-confirm minecraft-launcher             # Minecraft
+sudo yay -S build github-desktop                              # GitHub Desktop, this uses Manjaro's package manager. Since this is all for personal use, it is fine.
 
 echo Done!
