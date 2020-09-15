@@ -7,24 +7,22 @@ sudo systemctl enable --now snapd.socket
 # Install yay
 sudo pacman -S --noconfirm yay
 
-sudo yay -S --noconfirm discord-canary                              # Discord
-sudo pacman -S --noconfirm kdenlive                     # kdenlive
-sudo pacman -S --noconfirm skanlite                     # Skanlite
-sudo pacman -S --noconfirm onlyoffice-desktopeditors    # OnlyOffice
-sudo pacman -S --noconfirm steam                        # Steam
-sudo pacman -S --noconfirm termius-app                  # Termius SSH
-sudo pacman -S --noconfirm visual-studio-code-bin       # Visual Studio Code
-sudo pacman -S --noconfirm atom                         # Atom
-sudo pacman -S --noconfirm spotify                      # Spotify
-sudo pacman -S --noconfirm audacity                     # Audacity
-sudo pacman -S --noconfirm chromium                     # Chromium (eww)
-sudo pacman -S --noconfirm gimp                         # GIMP
-sudo pacman -S --noconfirm vlc                          # VLC
-sudo pacman -S --noconfirm qbittorrent                  # qBittorrent
-sudo pacman -S --noconfirm install git                  # git
-
-# Need user authentication
-sudo yay -S --no-confirm minecraft-launcher             # Minecraft
-sudo yay -S build github-desktop                              # GitHub Desktop, this uses Manjaro's package manager. Since this is all for personal use, it is fine.
+sudo yay -S --noconfirm discord_arch_electron        # Discord
+sudo yay -S --noconfirm kdenlive                     # kdenlive
+sudo yay -S --noconfirm skanlite                     # Skanlite
+sudo yay -S --noconfirm onlyoffice-desktopeditors    # OnlyOffice
+sudo yay -S --noconfirm steam                        # Steam
+sudo yay -S --noconfirm termius-app                  # Termius SSH
+sudo yay -S --noconfirm visual-studio-code-bin       # Visual Studio Code
+sudo yay -S --noconfirm atom                         # Atom
+sudo yay -S --noconfirm spotify                      # Spotify
+sudo yay -S --noconfirm audacity                     # Audacity
+sudo yay -S --noconfirm chromium                     # Chromium (eww)
+sudo yay -S --noconfirm gimp                         # GIMP
+sudo yay -S --noconfirm vlc                          # VLC
+sudo yay -S --noconfirm qbittorrent                  # qBittorrent
+sudo yay -S --noconfirm install git                  # git
+sudo yay -S --no-confirm minecraft-launcher          # Minecraft
+sudo yay -S github-desktop                           # GitHub Desktop
 
 echo Done!
