@@ -12,7 +12,7 @@ yay -S --noconfirm kdenlive                     # kdenlive
 yay -S --noconfirm skanlite                     # Skanlite
 yay -S --noconfirm onlyoffice-desktopeditors    # OnlyOffice
 yay -S --noconfirm steam                        # Steam
-yay -S --noconfirm termius-app                  # Termius SSH
+yay -S --noconfirm termius                      # Termius SSH
 yay -S --noconfirm visual-studio-code-bin       # Visual Studio Code
 yay -S --noconfirm atom                         # Atom
 yay -S --noconfirm spotify                      # Spotify
