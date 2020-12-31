@@ -58,7 +58,7 @@ choco install -y mullvad-app
 choco install -y qbittorrent
 choco install -y autodesk-fusion360
 choco install -y etcher
-choco install burp-suite-free-edition
+choco install -y burp-suite-free-edition
 
 
 # --------Manual Configuration--------
