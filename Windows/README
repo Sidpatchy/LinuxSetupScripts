@@ -1,0 +1,7 @@
+Win + I --> Update & Security --> For Developers
+Tick the box that states "Change execution policy to allow local powershell scripts to run without signing..."
+Click apply
+
+Navigate to the directory the script is stored in within an Administrator PowerShell
+???
+Profit
