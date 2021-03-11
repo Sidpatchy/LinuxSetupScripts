@@ -1,4 +1,4 @@
-sudo pacman -Syu                                        # Full system upgrade
+sudo pacman -Syu                                # Full system upgrade
 
 # Install yay
 sudo pacman -S --noconfirm yay
