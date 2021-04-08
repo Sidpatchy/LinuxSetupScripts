@@ -3,6 +3,12 @@ sudo pacman -Syu                                # Full system upgrade
 # Install yay
 sudo pacman -S --noconfirm yay
 
+# Appease Manjaro (for some reason these aren't installed by default)
+yay -S --noconfirm make                         # Make
+yay -S --noconfirm gcc                          # GCC
+yay -S --noconfirm fakeroot                     # Fakeroot
+yay -S --noconfirm patch                        # Patch
+
 # Everyday Applications
 yay -S --noconfirm chromium                     # Chromium (eww)
 yay -S --noconfirm discord_arch_electron        # Discord
@@ -46,7 +52,7 @@ yay -S --noconfirm android-studio               # Android Studio
 yay -S --noconfirm glade                        # Glade
 
 # Misc. Development and Sysadmin
-yay -S --noconfirm github-desktop               # GitHub Desktop
+yay -S --noconfirm github-desktop-bin           # GitHub Desktop
 yay -S --noconfirm termius                      # Termius SSH
 yay -S --noconfirm git                          # git
 yay -S --noconfirm jdk8-openjdk                 # JDK8
