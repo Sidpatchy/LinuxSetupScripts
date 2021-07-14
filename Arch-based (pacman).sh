@@ -59,8 +59,4 @@ yay -S --noconfirm jdk8-openjdk                 # JDK8
 yay -S --noconfirm gnome-boxes                  # Boxes
 yay -S --noconfirm balena-etcher                # Etcher
 
-# Install snap
-sudo pacman -S --noconfirm snapd
-sudo systemctl enable --now snapd.socket
-
 echo Done!
